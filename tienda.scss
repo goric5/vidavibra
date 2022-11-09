@@ -1,0 +1,30 @@
+nav,
+footer {
+  background-color: aquamarine;
+}
+h5 {
+  color: rgb(233, 25, 181);
+}
+h6 {
+  color: rgb(151, 0, 221);
+}
+p {
+  text-align: justify;
+  color: rgb(122, 10, 173);
+}
+$success: rgb(51, 255, 0);
+$danger: rgb(233, 25, 181);
+$primary: rgb(2, 241, 230);
+$card-border-color: rgb(51, 255, 0);
+$navbar-light-color: rgb(42, 138, 18); // letras
+$navbar-light-hover-color: rgb(247, 243, 9);
+$navbar-light-active: rgb(57, 224, 15); //active
+
+$carousel-control-color: aquamarine;
+$theme-colors: (
+  "sucess": $success,
+  "danger": $danger,
+  "primary": $primary,
+);
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
